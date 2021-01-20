@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'nunito', Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    padding: 40px 100px 25px 100px;
+    
+}
+
+#CourseBtn{
+    border: 2px solid transparent;
+    background-color: white;
+    border-radius: 20px;
+    width: 125px;
+    height: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+#CourseBtn:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+
+#logo {
+    cursor: pointer;
+    color: white;
+    font-family: "Pacifico";
+    font-size: 24px;
+    margin-right: 100px;
+    background: linear-gradient(90deg, #00d2ff 0%, #3a9cd5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+li, h1, p{
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+#nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+header li{
+    margin-right: 100px;
+    font-size: 18px;
+    font-style: bold;
+}
+
+#nav-links li a{
+    transition: all 0.1s ease 0s;
+    color: white;
+}
+
+#nav-links li a:hover{
+    transition: all 0.1s ease 0s;
+    border-radius: 10px;
+    border: solid 1.5px #4bf65c;
+    padding: 10px;
+}
+
+#hero{
+    height: 750px;
+    font-family: "Pacifico";
+    text-align: center;
+    padding: 280px;
+    font-size: 50px;
+    background-image: url(./Media/gradient-waves.jpg);
+    cursor: default;
+}
+#Assignments{
+    margin: 250px;
+    margin-right:500px;
+    margin-left: 500px;
+    padding: 50px 50px 150px 50px;
+    border-radius: 20px;
+    background: rgb(255,179,0);
+    background: linear-gradient(45deg, #FC466B 8%, #3F5EFB 100%);
+}
+
+#Assignments h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: none;
+    cursor: default;
+}
+#Assignments ol {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 300px;
+    gap: 30px;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    background: none;
+    font-size: 18px;
+
+}
+
+#Assignments ol li{
+    display: grid;
+    background: none;
+
+}
+
+#Assignments ol li a{
+
+    transition: all 0.1s ease 0s;
+    background: none;
+    width: 200px;
+    height: 200px;
+    color: white;
+
+
+}
+
+#Assignments ol li a:hover{
+    transition: all 0.1s ease 0s;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid transparent;
+    background: #2fe3fb23;
+
+
+}
+
+#Assignments ol li a img{
+    display: grid;
+    background: none;
+
+}
+
+
+#Artist{
+    text-align: center;
+    margin: 250px 0px 250px 0px;
+    padding: 0px 500px 0px 500px;
+    line-height: 2rem;
+    font-size: large;
+}
+
+#p1{
+    margin: 50px 0px 50px 0px;
+}
+
+#p3{
+    margin-top: 50px;
+}
+
+#Artist h1{
+    background: linear-gradient(90deg, rgb(140, 0, 255) 0%, #3a9cd5 12%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Gallery{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: 850px 850px 850px;
+    grid-template-rows: 850px;
+    margin-bottom: 250px;
+}
+
+#Gallery_Title{
+    text-align: center;
+    padding-bottom: 25px;
+    margin-top: 20px;
+}
+
+footer{
+    background-image: url(https://loading.io/asset/442985);
+}
