@@ -1,37 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252a;
 }
 html{
     scroll-behavior: smooth;
-    font-family: 'nunito', Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 150px;
-    padding: 40px 100px 25px 100px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 40px 100px 10px 100px;
     
 }
 
 #CourseBtn{
     border: 2px solid transparent;
-    background-color: white;
+    background-color: rgb(221, 221, 221);
     border-radius: 20px;
     width: 125px;
     height: 30px;
     cursor: pointer;
     outline: none;
+    font-size: small;
 }
 
-#CourseBtn:hover{
-    background-color: rgb(221, 221, 221);
+#CourseBtn:hover, #LearnMoreBtn:hover{
+    background-color: rgb(169, 69, 235);
+    box-shadow: 4px 8px #888888d2;
 }
 
 
@@ -41,7 +45,12 @@ header{
     font-family: "Pacifico";
     font-size: 24px;
     margin-right: 100px;
-    background: linear-gradient(90deg, #00d2ff 0%, #3a9cd5 100%);
+
+    background: #4ECDC4; 
+    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  
+    background: linear-gradient(to right, #556270, #5b4ecd); 
+
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -62,6 +71,7 @@ a:visited{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    
 
 }
 
@@ -73,47 +83,106 @@ header li{
 
 #nav-links li a{
     transition: all 0.1s ease 0s;
-    color: white;
+    color: #24252a;
+    font-size: large;
+    
 }
+
 
 #nav-links li a:hover{
     transition: all 0.1s ease 0s;
     border-radius: 10px;
-    border: solid 1.5px #4bf65c;
-    padding: 10px;
+    border: solid 1.5px rgb(169, 69, 235);
+    padding: 6px;
+    
 }
 
 #hero{
-    height: 750px;
-    font-family: "Pacifico";
-    text-align: center;
-    padding: 280px;
-    font-size: 50px;
-    background-image: url(./Media/gradient-waves.jpg);
-    cursor: default;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    padding: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
+
+#hero-container-1, #hero-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#hero #illustration-2{
+    margin-right: 8%;
+}
+
+#hero #illustration{
+    margin-left: 8%;
+    margin-top: 1%;
+    position: relative;
+}
+
+
+
+#hero-text h2{
+    font-size: 40px;
+
+    color: #24252a;
+    width: 200px;
+    margin-left: 150px;
+
+
+}
+#hero-text p{
+    color: #24252a;
+    width: 500px;
+    font-size: 18px;
+}
+
+#hero-text p i{
+    background: transparent;
+}
+
+#hero-text-2 h2{
+
+    font-size: 40px;
+    color: #24252a;
+    width: 200px;
+    margin-left: 150px;
+}
+
+#hero-text-2 p{
+    color: #24252a;
+    width: 500px;
+    font-size: 18px;
+}
+
 #Assignments{
-    margin: 250px;
-    margin-right:500px;
-    margin-left: 500px;
-    padding: 50px 50px 150px 50px;
+    margin: 125px;
+    margin-right:20%;
+    margin-left: 20%;
+    padding: 30px 50px 160px 50px;
     border-radius: 20px;
-    background: rgb(255,179,0);
-    background: linear-gradient(45deg, #FC466B 8%, #3F5EFB 100%);
+    background: #4568DC; 
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC); 
+    background: linear-gradient(to right, #B06AB3, #4568DC); 
+
+
 }
 
 #Assignments h1 {
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     background: none;
     cursor: default;
 }
 #Assignments ol {
     display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    grid-template-rows: 300px;
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-row-gap: 10%;
     justify-items: center;
     align-items: center;
     justify-content: space-around;
@@ -158,18 +227,24 @@ header li{
 
 #Artist{
     text-align: center;
-    margin: 250px 0px 250px 0px;
-    padding: 0px 500px 0px 500px;
+    margin: 125px 0px 125px 0px;
+    padding: 0px 20% 0px 20%;
     line-height: 2rem;
     font-size: large;
 }
 
 #p1{
     margin: 50px 0px 50px 0px;
+    color: #24252a;
+}
+
+#p2{
+    color: #24252a;
 }
 
 #p3{
     margin-top: 50px;
+    color: #24252a;
 }
 
 #Artist h1{
@@ -178,22 +253,96 @@ header li{
     -webkit-text-fill-color: transparent;
 }
 
+#LearnMoreBtn{
+    background-color: #24252a;
+    border: none;
+    color: white;
+    border-radius: 35px;
+    padding: 15px;
+    margin-top: 50px;
+    cursor: pointer;
+    outline: none;
+}
+
 #Gallery{
     display: grid;
     justify-items: center;
     align-items: center;
-    justify-content: space-evenly;
-    grid-template-columns: 850px 850px 850px;
-    grid-template-rows: 850px;
-    margin-bottom: 250px;
+
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+    grid-row-gap: 1.5%;
+    margin-bottom: 5%;
+}
+
+#Gallery img {
+    border: 2px solid rgb(221, 221, 221);
 }
 
 #Gallery_Title{
     text-align: center;
-    padding-bottom: 25px;
-    margin-top: 20px;
+    padding-bottom: 50px;
+    color: #24252a;
 }
 
 footer{
     background-image: url(https://loading.io/asset/442985);
+    margin: 0px 0px 50px 100px;
+    color: #24252a;
 }
+
+footer p {
+    color: #24252a;
+}
+
+@media screen and (max-width:1683px){
+    #Assignments{
+        padding-bottom: 20%;
+    }
+
+}
+
+
+@media screen and (max-width:1183px){
+    #Assignments{
+        padding-bottom: 120%;
+    }
+}
+
+@media screen and (max-width:956px){
+    #Assignments{
+        padding-bottom: 120%;
+    }
+}
+
+
+/*@media screen and (max-width:2222px){
+    #hero #illustration{
+        background-size: 550px;
+        margin-left: 1050px;
+        margin-top: 150px;
+        width: 530px;
+    }
+
+    #hero #illustration-2{
+        background-size: 550px;
+        margin-left: 200px;
+        margin-top: 300px;
+    }
+
+    #hero-text-2 p{
+        margin-left: 750px;
+    }
+    #hero-text-2 h2{
+        margin-left: 750px;
+    }
+
+    #hero-text p{
+        margin-left: 800px;
+    }
+    #hero-text h2{
+        margin-left: 800px;
+    }
+
+}*/
