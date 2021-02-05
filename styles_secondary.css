@@ -20,8 +20,36 @@ html{
     text-align: center;
     }
 
-    #about-img, #contact-img{
-        font-size: 100px;
-        text-align: center;
-        margin-top: 8%;
+#about-img, #contact-img{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 8%;
     }
+
+#Q1, #Q2, #Q3, #Q4, #Q5, #Q6{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 5% 1% 5% 1%;
+    padding: 2%;
+    border-radius: 30px;
+}
+
+img{
+    display: block;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+p{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+h2{
+    text-align: left;
+    padding-left: 1%;
+}
