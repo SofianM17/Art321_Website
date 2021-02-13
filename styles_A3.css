@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-image: url(./Media/A3/StarsPattern.jpg);
+}
+
+
+#description{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 5% 1% 5% 1%;
+    padding: 2%;
+    border-radius: 30px;
+
+    margin: 1% 1% 5% 1%;
+    background-color: rgba(88, 41, 141, 0.98);
+}
+
+
+p, li{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+#galaxy{
+    background-image: url(./Media/A3/SolarSystem.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    margin-bottom: 5%;
+    border-radius: 30px;
+    height: 75vh;
+    background-size: 75%;
+
+}
+
+#description li{
+    list-style:lower-roman;
+}
+
+#description ul{
+    padding: 1vh 400px 1vh 400px;
+}
+
+#description #written-content{
+    margin-bottom: 2%;
+}
+
+#written-content{
+    margin-top: 0px;
+}
