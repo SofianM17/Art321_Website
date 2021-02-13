@@ -12,6 +12,17 @@ html{
     
 }
 
+#info-bar{
+    background: rgb(20, 20, 20);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+#info-bar a{
+    text-decoration: underline;
+}
+
 header{
     display: flex;
     justify-content: space-around;
