@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A3</title>
+    <link rel="stylesheet" href="styles_secondary.css">
+</head>
+<body>
+
+    <div id="description">
+
+        <div id="galaxy">
+        </div>
+
+        <h1>
+            Net Art Prototype - A study of online privacy
+        </h1>
+
+        <div id="written-content">
+
+        
+            <p>
+                A net art piece I would design would be a website that generates a randomized
+                representation of the galaxy using data that has been collected by your browser. This would require using an API that allows communication
+                with the user's browser on the backend, and this data would include the following:
+            </p>
+            
+            <p>
+                <ul>
+
+
+                        <li>
+                            <i>Your most frequented sites.</i> These sites would be represented as 
+                            larger galactic objects, such as either planets or stars (each site would randomly be assigned to be represented as either of the two), with the sites
+                            that have been visited the most being represented as the largest and most luminous planets or stars.
+                            <br>
+                            <br>
+                            The number of site visits would be dynamically mapped to the sizes of astronomical objects depending on the total number of site visits across all sites the user has visited, such that
+                            if, after conversion of the units, the number of visits is in the ballpark size of an astronomical object (relative to the mapping) which
+                            has a known or predictable size, then that obect would represent the website. Size would be relative to the total amount of the user's site visits across all sites known to be visited by the browser.
+                            For example, if a user only has 100 recorded instances of site visits and 60% of those visits were to Youtube, the largest celestial object amongst the planets and stars would represent Youtube, and other astronomical objects
+                            would be scaled relative to those 100 visits, with the scale factor being dynamically adjusted when a change in the user's browser data is detected.
+                            <br>
+                            <br>
+                            Furthermore, the maximum size of a single website's representation would be capped as a ratio of the largest known or largest possible and brightest shining planets or stars in the 
+                            universe so that there do not exist unreasonably large celestial objects in the generated universe.
+
+                            <br>
+                            <br>
+                            Solar systems would be groups of websites that deal with the same or similar topic, or those that are functionally similar, with the most visited website represented as the central star. Algorithms would
+                            be used to determine the similarity of websites in the user's list of visited websites detected from their browser.
+                        </li>
+                        
+
+                        <li>
+                            <i> The websites you visited in particular time periods.</i> These would be represented by galaxies that would contain the websites you have visited in a specific time frame. The user would be able to adjust
+                            the time frame such that a galaxy could represent a month, 6 months, or a year, depending on the user's selected preference. Changing the preferred time frame would lead to a change 
+                            in the number of galaxies in the generated representation. For example, changing from a year to a month would lead to 12 new galaxies for each galaxy in the updated generation of the universe.
+                        </li>
+
+                        
+                </ul>
+            </p>
+            
+            <p>
+                
+                This net art piece would also allow you to navigate the generated universe, its galaxies, and its solar systems, and to click on the stars / planets it contains, which would 
+                redirect you to the website being represented by the selected celestial object.
+
+                Not only would this art piece serve as an example of net art, but it would also put into perspective the data your browser tracks
+                and the lack of privacy you really have when you are online. It would show visitors that much more knowledge about them is being tracked
+                than they may even suspect, though to some it may only be an entertaining artistic representation of their online presence.
+            </p>
+
+            <p>
+                The artistic contributions this project requires would largely be the algorithmically generated representation of the universe, which would be visualized
+                using computer graphics and animation and would rely on the user's online experiences.
+            </p>
+
+        </div>
+
+        <div id="written-content-2">
+            <h1>
+                Walkthrough
+            </h1>
+
+            <p>
+                When the user visits the website, they will be asked for their permission for access to their browser data. Once access has been granted and the data has been loaded, a representation of 
+                the universe will be generated based on this data, and the user will initially be presented with a selection of galaxies to choose from. If the user decides to change
+                the time frame each galaxy represents from an available settings bar, the visualization will be regenerated. clicking on a galaxy will result in a space-travel animation inspired
+                by sci-fi of the likes of Star Wars or Guardians of the Galaxy, and the user will then be presented with a myriad of solar systems to choose from. Clicking on any solar system will 
+                result in a similar animation, and once in a solar system, planets / stars will appear as the visited website's logo overlayed with a .png texture that resembles the look of planets / stars (or a generic placeholder if a logo could not be found). Clicking on 
+                any of the websites would redirect the user to them. 
+
+                <br>
+
+                
+            </p>
+        </div>
+
+    </div>
+    
+</body>
+</html>
