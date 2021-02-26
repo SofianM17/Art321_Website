@@ -8,6 +8,7 @@ html{
     background: linear-gradient(to left, #49a09d, #5f2c82); 
     font-family: 'Poppins', sans-serif;
     color: white;
+    font-size: large;
 }
 
 #About, #Contact{
