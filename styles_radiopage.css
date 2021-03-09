@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #2B394A;
+    background-image: url(./Media/A5/halftone-yellow.png);
+    font-weight: 500;
+    font-size: large;
+}
+
+p, h1, li, h2{
+    text-align: center;
+    margin: 0% 400px 0% 400px;
+    
+}
+
+li{
+    background-color: #FDA5A4;
+}
+
+h1{
+    margin-bottom: 5%;
+}
+
+h1{
+    margin-top: 2%;
+}
+
+h2{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+audio{
+    display: block;
+    width: 30%; 
+	margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    outline: none;
+    border-radius: 15px;
+}
+
+button{
+    background-color: #f1f3f4;
+    border: none;
+    width: 150px;
+    padding: 10px;
+    margin-right: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+    color: #2B394A;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
