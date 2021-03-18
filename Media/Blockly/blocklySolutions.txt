@@ -1,0 +1,42 @@
+Draw a square (exercise 1)
+
+https://blockly.games/turtle?lang=en&level=1#ho5h5d
+
+Draw a pentagon (exercise 2)
+
+https://blockly.games/turtle?lang=en&level=2#3gh8b6
+
+
+Draw a star (exercise 3)
+
+https://blockly.games/turtle?lang=en&level=3#yv6bf6
+
+Pen up (exercise 4)
+
+https://blockly.games/turtle?lang=en&level=4#eubwjj
+
+Exercise 5
+
+https://blockly.games/turtle?lang=en&level=5#voptxj
+
+Exercise 6
+
+https://blockly.games/turtle?lang=en&level=6#5a53xj
+
+Exercise 7
+
+https://blockly.games/turtle?lang=en&level=7#z6y4xf
+
+Exercise 8
+
+https://blockly.games/turtle?lang=en&level=8#3w7khy
+
+ASSIGNMENT
+
+https://blockly.games/turtle?lang=en&level=10#qigxgq
+
+
+
+
+
+
