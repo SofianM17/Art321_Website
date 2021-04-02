@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Art 321 Homepage | Sofian Mustafa</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <script src="script.js"></script>
+
 </head>
 
 <body>
     <div id="info-bar">
-        <a href="./A6.html">Assignment 6</a> has now been uploaded!
+        <a onclick="onVideoClick('./Media/A7/C0057_1.mp4');">Assignment 7</a> has now been uploaded!
     </div>
 
     <header>
@@ -37,21 +38,23 @@
 
             </ul>
         </nav>
-        
-                <button onclick="location.href='https://people.ucalgary.ca/~jparker/art321/index.html'" type="button" id="CourseBtn">
-                    Course Page
-                </button>
-        
+
+        <button onclick="location.href='https://people.ucalgary.ca/~jparker/art321/index.html'" type="button"
+            id="CourseBtn">
+            Course Page
+        </button>
+
     </header>
 
-    
+
     <div id="hero" onselectstart="return false">
 
         <div id="hero-container-1">
             <div id="hero-text">
                 <h2>Browse</h2>
                 <p>
-                    A collection of Sofian Mustafa's <i> artistic </i> and <i> creative </i> works, putting web art on display.
+                    A collection of Sofian Mustafa's <i> artistic </i> and <i> creative </i> works, putting web art on
+                    display.
                 </p>
                 <button onclick="location.href='#Assignments'" type="button" id="HeroBtn">
                     Go
@@ -77,115 +80,127 @@
                 </button>
             </div>
         </div>
-    
+
     </div>
 
-        <div id="Assignments">
-            <h1 onselectstart="return false">
-                Assignments
-            </h1>
+    <div id="Assignments">
+        <h1 onselectstart="return false">
+            Assignments
+        </h1>
 
-            <ol>
-                <li>
-                    <a href="#" title="Assignment 1">
-                        1. Webpage Design
-                        <img src="https://img.icons8.com/color/96/000000/html-5.png" width = 90px />
-                    </a>
-                </li>
+        <ol>
+            <li>
+                <a href="#" title="Assignment 1">
+                    1. Webpage Design
+                    <img src="https://img.icons8.com/color/96/000000/html-5.png" width=90px />
+                </a>
+            </li>
 
-                <li>
-                    <a href="A2.html" title="Assignment 2">
-                        2. Image Modification
-                        <img src="https://img.icons8.com/color/96/000000/adobe-photoshop.png" width = 90px />
-                    </a>
-                </li>
+            <li>
+                <a href="A2.html" title="Assignment 2">
+                    2. Image Modification
+                    <img src="https://img.icons8.com/color/96/000000/adobe-photoshop.png" width=90px />
+                </a>
+            </li>
 
-                <li>
-                    <a href="A3.html" title="Assignment 3">
-                        3. Net Art Design
-                        <img src="https://img.icons8.com/cotton/64/000000/computer.png" width = 90px />
-                    </a>
-                </li>
+            <li>
+                <a href="A3.html" title="Assignment 3">
+                    3. Net Art Design
+                    <img src="https://img.icons8.com/cotton/64/000000/computer.png" width=90px />
+                </a>
+            </li>
 
-                <li>
-                    <a href="A4.html" title="Assignment 4">
-                        4. Animation
-                        <img src="https://img.icons8.com/color/96/000000/adobe-flash.png" width = 90px />
-                    </a>
-                </li>
+            <li>
+                <a href="A4.html" title="Assignment 4">
+                    4. Animation
+                    <img src="https://img.icons8.com/color/96/000000/adobe-flash.png" width=90px />
+                </a>
+            </li>
 
-                <li>
-                    <a href="A5.html" title="Assignment 5">
-                        5. Radio Play
-                        <img src="https://img.icons8.com/fluent/96/000000/audio-wave2.png" width = 90px/></a>
-                </li>
+            <li>
+                <a href="A5.html" title="Assignment 5">
+                    5. Radio Play
+                    <img src="https://img.icons8.com/fluent/96/000000/audio-wave2.png" width=90px /></a>
+            </li>
 
-                <li>
-                    <a href="./A6.html" title="Assignment 6">
-                        6. Programming
-                        <img src="./Media/logo_vertical.svg" width = 125px/>
-                    </a>
-                </li>
+            <li>
+                <a href="./A6.html" title="Assignment 6">
+                    6. Programming
+                    <img src="./Media/logo_vertical.svg" width=125px />
+                </a>
+            </li>
 
-                <li>
-                    <a href="index2.html" title="Assignment 7">
-                        7. Video Capture & Edit
-                        <img src="https://img.icons8.com/fluent/96/000000/video.png" width = 90px/></a>
-                </li>
+            <li>
+                <a id="A7"
+                    onclick="onVideoClick('./Media/A7/C0057_1.mp4');">
+                    7. Video Capture & Edit
+                    <img src="https://img.icons8.com/fluent/96/000000/video.png" width=90px />
+                </a>
+                <div id="video_pop" onclick="onPopClick()"></div>
+            </li>
 
-                <li>
-                    <a href="index2.html" title="Assignment 8">
-                        A8
-                        <img src="https://img.icons8.com/dusk/64/000000/download.png" width = 90px/>
-                    </a>
-                </li>
-            </ol>
+            <li>
+                <a href="index2.html" title="Assignment 8">
+                    A8
+                    <img src="https://img.icons8.com/dusk/64/000000/download.png" width=90px />
+                </a>
+            </li>
+        </ol>
+    </div>
+
+    <div id="Artist">
+        <h1>
+            Anders Hoff
+        </h1>
+
+        <p id="p1">
+            Anders Hoff is a generative artist whose work can be described as a play on or disruption of simplicity.
+            While
+            an immediate reaction to an initial viewing of Hoff's work suggests a piece largely depicting simple
+            patterns or simple geometric
+            shapes, closer inspection of the project reveals many unique and complex intricacies part of Hoff's creative
+            thinking
+            process and his experimental and creative use of computer software and programming that are prevalent in the
+            artwork.
+        </p>
+        <p id="p2">
+            Hoff's art, while unique and creative, is visually stimulating, minimalistic, and enticing to view. This is
+            because it initially, as a template,
+            begins as a pattern or shape that we are all familiar with, and ends up as a work that could only be from
+            Hoff's own imagination and experimental ability, while preserving
+            the familiarity to the original pattern or shape we may have. Furthermore, each of Hoff's works makes
+            exemplary use of negative space that instantly draws the viewer's attention to the main
+            subject, which maintains it with its ingenuinity.
+        </p>
+        <p id="p3">
+            Much of Anders Hoff's work is 3D generated or produced using programming algorithms using the Python
+            programming language. The following gallery consists of images from Hoff's Inconvergent project, which, as
+            he describes,
+            <q>
+                explores how to use algorithms to create aesthetic compositions, structures and textures.
+            </q>
+        </p>
+
+        <button onclick="location.href='https://inconvergent.net/'" type="button" id="LearnMoreBtn">
+            Learn More
+        </button>
+
+    </div>
+
+    <div>
+        <h1 id="Gallery_Title">
+            Gallery
+        </h1>
+        <div id="Gallery">
+            <img src="./Media/1.jpg" width=780>
+            <img src="./Media/2.jpg" width=780>
+            <img src="./Media/3.jpg" width=780>
+            <img src="./Media/4.png" width=780>
+            <img src="./Media/5.png" width=780>
+            <img src="./Media/6.png" width=780>
         </div>
+    </div>
 
-        <div id="Artist">
-            <h1>
-                Anders Hoff
-            </h1>
-
-            <p id="p1">
-                Anders Hoff is a generative artist whose work can be described as a play on or disruption of simplicity. While
-                an immediate reaction to an initial viewing of Hoff's work suggests a piece largely depicting simple patterns or simple geometric 
-                shapes, closer inspection of the project reveals many unique and complex intricacies part of Hoff's creative thinking
-                process and his experimental and creative use of computer software and programming that are prevalent in the artwork.
-            </p>
-            <p id="p2">
-                Hoff's art, while unique and creative, is visually stimulating, minimalistic, and enticing to view. This is because it initially, as a template,
-                begins as a pattern or shape that we are all familiar with, and ends up as a work that could only be from Hoff's own imagination and experimental ability, while preserving
-                the familiarity to the original pattern or shape we may have. Furthermore, each of Hoff's works makes exemplary use of negative space that instantly draws the viewer's attention to the main
-                subject, which maintains it with its ingenuinity.
-            </p>
-            <p id="p3">
-                Much of Anders Hoff's work is 3D generated or produced using programming algorithms using the Python programming language. The following gallery consists of images from Hoff's Inconvergent project, which, as he describes,
-                <q>
-                    explores how to use algorithms to create aesthetic compositions, structures and textures.
-                </q>
-            </p>
-
-            <button onclick="location.href='https://inconvergent.net/'" type="button" id="LearnMoreBtn">
-                Learn More
-            </button>
-
-        </div>
-
-        <div>
-            <h1 id="Gallery_Title">
-                Gallery
-            </h1>
-            <div id="Gallery">
-                <img src= "./Media/1.jpg" width = 780>
-                <img src= "./Media/2.jpg" width = 780>
-                <img src= "./Media/3.jpg" width = 780>
-                <img src= "./Media/4.png" width = 780>
-                <img src= "./Media/5.png" width = 780>
-                <img src= "./Media/6.png" width = 780>
-            </div>
-        </div>
-    
     <footer>
         <p>
             Developed with HTML 5 & CSS.
@@ -195,4 +210,5 @@
         </p>
     </footer>
 </body>
+
 </html>
