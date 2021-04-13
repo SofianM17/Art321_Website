@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #2B394A;
+    background-image: url(./Media/triangle-mosaic.png);
+    font-weight: 500;
+    font-size: large;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.content{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+}
+
+p, li {
+    margin-bottom: 4%;
+}
+
+li{
+    list-style: none;
+}
+
+h2{
+    text-align: center;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 55%;
+}
